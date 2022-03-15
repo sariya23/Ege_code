@@ -1,5 +1,5 @@
 def win1(x, s):
-    if x + s < 47 and ((47 <= s + x + 2 <= 59) or (47 <= 3*x + s <= 59) or (47 <= x + 3*s <= 59)) or x + s > 59:
+    if x + s < 47 and ((47 <= s + x + 2 <= 59) or (47 <= 3*x + s <= 59) or (47 <= x + 3*s <= 59)) or x + s > 59:  # последнее усл только для верхних границ
         return True
     return False
 
